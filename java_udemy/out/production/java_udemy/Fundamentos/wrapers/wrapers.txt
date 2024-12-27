@@ -1,0 +1,3 @@
+### WRAPPERS ###
+- São os tipos orientados a objetos dos tipos primitivos.
+- Possuem funções específicas e pre-definidas para eles.
