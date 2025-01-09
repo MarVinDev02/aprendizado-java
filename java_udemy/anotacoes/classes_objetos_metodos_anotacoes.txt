@@ -16,3 +16,6 @@ objeto.membro
 - São comportamentos de uma classe.
 - Estão interligados aos algoritmos.
 - São os comportamentos que uma classe irá ter.
+- Métodos utilizam nomenclatura camelCase.
+- Quando houver atributo dentro da classe, não preciso passar parâmetros.
+
