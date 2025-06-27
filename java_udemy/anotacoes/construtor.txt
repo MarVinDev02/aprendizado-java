@@ -1,4 +1,0 @@
-### Construtor ###
-
-- Construtor padrão não recebe parâmetro.
--
