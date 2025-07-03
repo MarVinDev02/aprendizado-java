@@ -16,12 +16,12 @@ public class App {
         Scanner ent = new Scanner(System.in);
 
         while(true){
+            System.out.println("Insira o número '0 - Para'");
             int num = ent.nextInt();
 
             if(num == 0){
                 break;
             }
-
             n.add(num);
         }
     }
@@ -32,8 +32,7 @@ public class App {
         for(int numero : n){
             soma += numero;
         }
-
-        System.out.println(soma);
+        System.out.println("Resultado: " + soma);
 
     }
 }
