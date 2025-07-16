@@ -1,13 +1,9 @@
-package intermediario;
+package intermediario.heranca;
 
 public class Ninja {
     public String nome;
-    int idade;
-    String aldeia;
-
-    public void sharinganAtivado(String nome) {
-        System.out.printf("%s O Sharingan ativou!\n", nome);
-    }
+    public int idade;
+    public String aldeia;
 
     public String euSouUmNinja(String nome) {
         return String.format("""

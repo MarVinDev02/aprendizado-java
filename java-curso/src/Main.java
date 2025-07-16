@@ -4,6 +4,21 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Desculpa, posso voltar um dia, mas hoje não. ");
+      //testando memória de referência em Java;
+
+        String[] marcus = new String[1];
+        marcus[0] = "Marcus";
+        for(var item : marcus){
+            System.out.println(item);
+        }
+        System.out.println(marcus);
+
+        String[] jonacir = marcus;
+        for(var item : jonacir){
+            System.out.println(item);
+        }
+        System.out.println(jonacir);
+
+
     }
 }

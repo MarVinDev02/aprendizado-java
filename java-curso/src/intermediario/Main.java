@@ -10,13 +10,15 @@ public class Main {
         naruto.nome = "Naruto Uzumaki";
         naruto.aldeia = "Aldeia da Folha";
         naruto.idade = 18;
+        String falarIdade = naruto.mostrarIdade(naruto.nome, naruto.idade);
+
 
         //Criando o Sasuke.
         Ninja sasuke = new Ninja();
         sasuke.nome = "Sasuke Uchiha";
         sasuke.aldeia = "Aldeia da folha";
         sasuke.idade = 19;
-        sasuke.sharinganAtivado();
+        sasuke.sharinganAtivado(sasuke.nome);
 
         //Criando a Sakura
         Ninja sakura = new Ninja();
@@ -24,25 +26,11 @@ public class Main {
         sakura.aldeia = "Aldeia da folha";
         sakura.idade = 19;
         String apresentacao = sakura.euSouUmNinja(sakura.nome);
+        System.out.println(falarIdade);
         System.out.println(apresentacao);
 
-        
-        String[][] nomes = new String[3][3];
-        nomes[0][0] = "Marcus";
-        nomes[0][1] = "Bernardo";
-        nomes[0][2] = "Sandro";
-        nomes[1][0] = "João";
-        nomes[1][1] = "Felipe";
-        nomes[1][2] = "Tiger";
+        System.out.println(naruto + "\n" + sakura + "\n" + sasuke);
 
-        for (int i = 0; i < ; i++) {
-            
-        }
     }
 }
 
-/*
- * Tudo em Java é objeto;
- *  Void não retorna valor nenhum.
- *
- */
