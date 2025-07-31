@@ -37,6 +37,15 @@ public class Main {
         boruto.modoSabioAtivado();
         boruto.ativarOKarma();
         boruto.ativarJougan();
+        System.out.println("-------------------------------------------");
+        Sarada sarada = new Sarada();
+        sarada.nome = "Sarada Uchiha";
+        sarada.idade = 13;
+        sarada.aldeia = "Aldeia da Folha";
+        sarada.AtivarCura();
+        sarada.AtivarSharingan();
+
+
 
     }
 }
