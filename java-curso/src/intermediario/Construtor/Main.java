@@ -13,7 +13,5 @@ public class Main {
         tobirama.vivoOuNao = false;
 
 
-
-
     }
 }
