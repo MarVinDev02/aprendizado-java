@@ -28,4 +28,13 @@ public class Uchiha extends Ninja implements SharinganInterface{
             System.out.println(nome + " seu QI é " + qi + " e você precisa estudar mais.");
         }
     }
+
+    @Override
+    public String toString() {
+        return String.format("""
+                %s
+                %s
+                %s
+                """, nome, idade, aldeia);
+    }
 }

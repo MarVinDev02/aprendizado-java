@@ -21,6 +21,8 @@ public class Main {
         naruto.inteligenciaDeCombate(100);
 
 
+        System.out.println(sasuke);
+
 
     }
 }

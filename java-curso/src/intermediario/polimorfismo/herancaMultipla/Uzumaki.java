@@ -12,6 +12,12 @@ public class Uzumaki extends Ninja {
         super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
     }
 
+    //@Override
+    //public void tacarKunai(){
+    //    System.out.println("Eu sou um método da classe FILHA");
+    //}
+
+
     @Override
     public void inteligenciaDeCombate(int qi) {
         if(qi > 150){
@@ -21,5 +27,14 @@ public class Uzumaki extends Ninja {
         }else {
             System.out.println(nome + " seu QI é " + qi + " e você precisa estudar mais." );
         }
+    }
+
+    @Override
+    public String toString() {
+        return String.format("""
+                %s
+                %s
+                %s
+                """, nome, idade, aldeia);
     }
 }

@@ -6,3 +6,6 @@ public interface EstrategiaDeBatalha {
     void inteligenciaDeCombate(int qi);
 
 }
+
+//final
+//cpf, ID.

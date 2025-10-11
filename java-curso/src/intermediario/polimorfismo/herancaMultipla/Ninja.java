@@ -6,11 +6,17 @@ public abstract class Ninja  implements EstrategiaDeBatalha{
     int idade;
     int numeroDeMissoesConcluidas;
     NivelNinja rank;
-
+    final double altura = 2.10;
     //TODO: Incluir dois novos atributos: numeroDeMissoesConcluidas, Rank
     //TODO: Rank: Gennin, Chunnin, Jounnin, Hokage
 
     public Ninja() {
+    }
+
+    //nenhuma classe vai poder sobreescrever esse método.
+    //Final significa uma constante.
+    final public void tacarKunai(){
+        System.out.println("Eu sou um método da classe mãe");
     }
 
     public Ninja(String nome, String aldeia, int idade) {
