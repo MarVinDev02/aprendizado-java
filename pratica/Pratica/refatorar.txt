@@ -1,0 +1,8 @@
+Criar uma superclasse Pessoa
+Fazer records virarem classes herdando a pessoa.
+---
+Criar zoológico
+fazer classe animal
+Criar lista de animais de diversas espécies. 
+Criar métodos para os animais. 
+---

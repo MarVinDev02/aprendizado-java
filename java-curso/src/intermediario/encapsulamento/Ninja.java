@@ -30,15 +30,15 @@ public class Ninja {
         return aldeia;
     }
 
-    public void setAldeia(String aldeia) {
+    private void setAldeia(String aldeia) {
         this.aldeia = aldeia;
     }
 
-    public int getIdade() {
+    private int getIdade() {
         return idade;
     }
 
-    public void setIdade(int idade) {
+    private void setIdade(int idade) {
         this.idade = idade;
     }
 
