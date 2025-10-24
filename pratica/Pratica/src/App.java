@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
 
 import cadastros.Cliente;
@@ -6,16 +8,23 @@ import cadastros.Loja;
 
 public class App {
     public static void main(String[] args) {
-       
-        Cliente cliente = new Cliente("Adalberto", 16, "1234324532423");
-        Funcionario funcionario = new Funcionario("Jorge", 40, "3213208312839128");
 
-        Loja<Object> loja = new Loja<>();
-        
-        loja.adicionarCliente(cliente);
-        loja.adicionarCliente(funcionario);
+        LinkedList<String> linkedList = new LinkedList<>(); //inicia linkedlist
 
-        loja.imprimirPessoas();
+        linkedList.add("Naruto"); //adiciona elemento
+        linkedList.add("Sakura");
+        linkedList.add("Sasuke");
+
+        System.out.println(linkedList);
+
+        linkedList.add(0,"Kakashi"); //adiciona um elemento pelo índice dele.
+
+        System.out.println(linkedList); 
+
+        linkedList.remove(2); //remove elemento pelo indice.
+
+        System.out.println(linkedList); 
+
 
     }
 }

@@ -13,6 +13,8 @@ public class Main {
         ninjasQueue.add("Shikamaru");
         ninjasQueue.add("Kakashi");
         ninjasQueue.add("kohonamaru");
+        ninjasQueue.add("Jiraya");
+        
 
 
         System.out.println("Ninjas na fila" + ninjasQueue);//Mostrar a fila

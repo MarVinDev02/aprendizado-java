@@ -1,8 +1,6 @@
-Criar uma superclasse Pessoa
-Fazer records virarem classes herdando a pessoa.
----
-Criar zoológico
-fazer classe animal
-Criar lista de animais de diversas espécies. 
-Criar métodos para os animais. 
----
+
+    //Iniciar linkedlist com 7 ninjas
+      //adicioanr ninja no inicio da lista
+      //remover ninja no inicio da lista
+      //listar os ninjas
+      //procurar o ninja por indice.

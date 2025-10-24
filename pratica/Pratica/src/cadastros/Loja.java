@@ -4,22 +4,32 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Loja<T> {
-    List<T> cadastro;
+   private List<T> cadastro;
+   
 
-    //Construtor
-    public Loja() {
-        this.cadastro = new ArrayList<>();
-    }
+   public Loja() {
+    this.cadastro = new ArrayList<>();
+   }
 
-    //Criar método adicionar cliente.
-    public void adicionarCliente(T pessoa){
-        cadastro.add(pessoa);
-    }
+   public void adicionarCliente(T cliente){
+    cadastro.add(cliente);
+   }
 
-    public void imprimirPessoas(){
-        for (T pessoa : cadastro){
-            System.out.println(pessoa);
-        }
+   public void exibirCliente(){
+    for (T clientes : cadastro){
+        System.out.println(clientes);
     }
+   }
+   
+   public List<T> getCadastro() {
+    return cadastro;
+   }
+
+   public void setCadastro(List<T> cadastro) {
+    this.cadastro = cadastro;
+   }
+
+      
+
     
 }
