@@ -1,30 +1,24 @@
 import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
-
-import cadastros.Cliente;
-import cadastros.Funcionario;
-import cadastros.Loja;
 
 public class App {
     public static void main(String[] args) {
 
-        LinkedList<String> linkedList = new LinkedList<>(); //inicia linkedlist
+        LinkedList<Ninja> ninjas = new LinkedList<>();
 
-        linkedList.add("Naruto"); //adiciona elemento
-        linkedList.add("Sakura");
-        linkedList.add("Sasuke");
+        ninjas.add(new Ninja("Naruto", 18, "Folha"));
+        ninjas.add(new Ninja("Sasuke", 19, "Folha"));
+        ninjas.add(new Ninja("Kakashi", 30, "Folha"));
+        ninjas.add(new Ninja("Sakura", 18, "Folha"));
+        ninjas.add(new Ninja("Ino", 18, "Folha"));
+        ninjas.add(new Ninja("Hinata", 18, "Folha"));
+        ninjas.add(new Ninja("Tenten", 18, "Folha"));
+        ninjas.addFirst(new Ninja("Orochimaru", 49, "Folha"));//Adicionando ao inicio da lista.
+        System.out.println(ninjas);
+        ninjas.remove(0);//removendo do inicio da lista.
+        System.out.println(ninjas);//listando ninjas
 
-        System.out.println(linkedList);
-
-        linkedList.add(0,"Kakashi"); //adiciona um elemento pelo índice dele.
-
-        System.out.println(linkedList); 
-
-        linkedList.remove(2); //remove elemento pelo indice.
-
-        System.out.println(linkedList); 
-
-
+        String ninja = ninjas.get(2);//Selciono um elemento a partir do indice.
+        System.out.println(ninja);
+        
     }
 }
